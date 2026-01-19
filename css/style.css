@@ -127,7 +127,7 @@ nav ul li a{
     border: 1px solid #00ff88;
 
 }
-#podcast, #features{
+#podcast, #features, #footer {
     max-width: 1600px;
      background-color: #1A0B2E;
      margin: 0 auto;
@@ -195,7 +195,8 @@ nav ul li a{
     
     text-align: start;
     
-}#podcast{
+}
+#podcast{
     max-width: 1600px;
      background-color: #1A0B2E;
      margin: 0 auto;
@@ -301,6 +302,7 @@ nav ul li a{
     gap: 24px;
     background-color: #351165;
     padding: 24px;
+    border-radius: 40px;
     
 }
 .alex-text{
@@ -321,6 +323,42 @@ nav ul li a{
     border-radius: 50%;
     background-color: #533c72;
     border: 1px solid #70045075;
+
+}
+.footer-container{
+    text-align: center;
+    background-image: url(../images/assets/footer-bg.png);
+    background-position: center;
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+   
+    
+}
+.footer-links{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
+}
+.f-icon{
+    display: flex;
+    gap: 8px;
+}
+.footer-text{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+
+}
+.reserved{
+    color: #ffffff;
+    
+    
 
 }
 
