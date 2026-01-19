@@ -3,9 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: #1A0B2E;
-}
+/*body{
+     background-color: #1A0B2E;
+}*/
+
 /*common code*/
 
 .primary-btn{
@@ -20,6 +21,28 @@ body{
     gap: 4px;
     align-items: center;
 }
+.common-type{
+    color: #ffffff;
+    font-size: 1rem;
+    margin-bottom: 24px;
+    line-height: 20px;
+}
+
+    .number{
+    color: #00ff88;
+    font-size: 48px;
+    margin-bottom: 16px;
+
+    }
+    .card-heading{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .card-text{
+       font-size: 16px;
+       line-height: 24px; 
+    }
+
 
 
 
@@ -33,6 +56,8 @@ nav{
     margin: 0 auto;
     border-bottom: 1px solid #ffffff25;
     padding-bottom: 16px;
+     background-color: #1A0B2E;
+    
 
 }
 nav ul{
@@ -49,6 +74,7 @@ nav ul li a{
 #banner{
     max-width: 1600px;
     background-image: url(../images/assets/hero-bg.png);
+    background-position: center;
 }
 .banner-container{
     width: 33%;
@@ -62,7 +88,7 @@ nav ul li a{
 
 
 .img-box{
-   /*position: absolute;*/
+   position: relative;
   margin-bottom: 40px;
   margin-top: 100px;
   margin-left: auto;
@@ -71,9 +97,9 @@ nav ul li a{
 
 
 .img-box .img-2{
-    position: relative;
-    left: -220px;
-    top: -75px; 
+    position: absolute;
+    left: 110px;
+    top: 80px; 
 }
 .banner-container h2{
     color: #ffffff;
@@ -81,11 +107,7 @@ nav ul li a{
     font-weight: bolder;
     margin-bottom: 24px;
 }
-.banner-container p{
-    color: #ffffff;
-    font-size: 1rem;
-    margin-bottom: 24px;
-}
+
 .btn{
     display: flex;
     justify-content: center;
@@ -103,3 +125,141 @@ nav ul li a{
     border: 1px solid #00ff88;
 
 }
+#podcast{
+    max-width: 1600px;
+     background-color: #1A0B2E;
+     margin: 0 auto;
+}
+.podcast-container{
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.section-heading{
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: bold;
+    padding-top: 50px;
+    margin-bottom: 8px;
+}
+.ratio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 120px;
+}
+#choosing{
+    max-width: 1600px;
+    background-color: #230e3d;
+}
+.choosing-container{
+    max-width: 1200px;
+    width: 75%;
+    
+    margin: 0 auto;
+    text-align: center;
+}
+.facilities{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    margin: 0 auto;
+    gap: 30px;
+    
+    grid-template-areas:
+     "card-1 card-2 card-2"
+     "card-1 card-3 card-3"
+     "card-4 card-4 card-5" 
+    ;
+    padding-top: 40px;
+    padding-bottom: 120px;
+
+}
+.card-1{grid-area: card-1;}
+.card-2{grid-area: card-2;}
+.card-3{grid-area: card-3;}
+.card-4{grid-area: card-4;}
+.card-5{grid-area: card-5;}
+
+.facilities .card-1, .card-2, .card-3, .card-4, .card-5{
+
+    background-color: #351165;
+    border-radius: 40px;
+    color: #ffffff;
+    padding: 40px;
+    display: grid;
+    gap: 16px;
+    
+    text-align: start;
+    
+}#podcast{
+    max-width: 1600px;
+     background-color: #1A0B2E;
+     margin: 0 auto;
+}
+.podcast-container{
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.section-heading{
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: bold;
+    padding-top: 50px;
+    margin-bottom: 8px;
+}
+.ratio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 120px;
+}
+#choosing{
+    max-width: 1600px;
+    background-color: #230e3d;
+}
+.choosing-container{
+    max-width: 1200px;
+    width: 75%;
+    
+    margin: 0 auto;
+    text-align: center;
+}
+.facilities{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    margin: 0 auto;
+    gap: 30px;
+    
+    grid-template-areas:
+     "card-1 card-2 card-2"
+     "card-1 card-3 card-3"
+     "card-4 card-4 card-5" 
+    ;
+    padding-top: 40px;
+    padding-bottom: 120px;
+
+}
+.card-1{grid-area: card-1;}
+.card-2{grid-area: card-2;}
+.card-3{grid-area: card-3;}
+.card-4{grid-area: card-4;}
+.card-5{grid-area: card-5;}
+
+.facilities .card-1, .card-2, .card-3, .card-4, .card-5{
+
+    background-color: #351165;
+    border-radius: 40px;
+    color: #ffffff;
+    padding: 40px;
+    display: grid;
+    gap: 16px;
+    
+    text-align: start;
+    
+}
+
