@@ -37,10 +37,12 @@
     .card-heading{
         font-size: 24px;
         font-weight: bold;
+        color: #ffffff;
     }
     .card-text{
        font-size: 16px;
        line-height: 24px; 
+       color: #ffffff;
     }
 
 
@@ -125,7 +127,7 @@ nav ul li a{
     border: 1px solid #00ff88;
 
 }
-#podcast{
+#podcast, #features{
     max-width: 1600px;
      background-color: #1A0B2E;
      margin: 0 auto;
@@ -153,7 +155,7 @@ nav ul li a{
     max-width: 1600px;
     background-color: #230e3d;
 }
-.choosing-container{
+.choosing-container, .features-container{
     max-width: 1200px;
     width: 75%;
     
@@ -262,4 +264,64 @@ nav ul li a{
     text-align: start;
     
 }
+   
+.features-container{
+    padding-bottom: 120px;
+}
+
+.videos{
+    display: flex;
+    gap: 30px;
+    padding-top: 40px;
+    text-align: start;
+}
+.video-card{
+    
+    display: grid;
+    gap: 24px;
+    background-color: #250d44;
+   
+}
+.video-text{
+    padding: 24px; 
+}
+
+.green{
+    color: #00ff88;
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    gap: 6px;
+    padding-bottom: 24px;
+   
+}
+.alex{
+    display: flex;
+    text-align: start;
+    gap: 24px;
+    background-color: #351165;
+    padding: 24px;
+    
+}
+.alex-text{
+    display: grid;
+    gap: 16px;
+}
+.alex-text h4{
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.social-links{
+    display: inline-flex;
+    gap: 8px;
+}
+.social-links .icon{
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #533c72;
+    border: 1px solid #70045075;
+
+}
+
 
