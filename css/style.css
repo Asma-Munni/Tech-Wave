@@ -73,6 +73,9 @@ nav ul li a{
     font-size: 1rem;
     font-weight: 500;
 }
+nav .hamburger-menu{
+    display: none;
+}
 #banner{
     max-width: 1600px;
     background-image: url(../images/assets/hero-bg.png);
@@ -357,9 +360,31 @@ nav ul li a{
 }
 .reserved{
     color: #ffffff;
-    
-    
-
 }
+    
+@media  screen and (max-width:576px) {
+    nav{
+        width: 96%;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    
+    .menu{
+        display: none;
+    }
+    .primary-btn{
+        display: none;
+    }
+     nav .hamburger-menu{
+        display: block;
+    }
+    #banner, #podcast, #choosing, #features, #footer{
+       width: 96%; 
+    }
+
+}   
+
+
+    
 
 
