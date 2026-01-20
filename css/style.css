@@ -20,6 +20,7 @@
     display: flex;
     gap: 4px;
     align-items: center;
+    cursor: pointer;
 }
 .common-type{
     color: #ffffff;
@@ -30,17 +31,17 @@
 
     .number{
     color: #00ff88;
-    font-size: 48px;
+    font-size: 3rem;
     margin-bottom: 16px;
 
     }
     .card-heading{
-        font-size: 24px;
+        font-size: 1.5rem;
         font-weight: bold;
         color: #ffffff;
     }
     .card-text{
-       font-size: 16px;
+       font-size: 1rem;
        line-height: 24px; 
        color: #ffffff;
     }
@@ -120,6 +121,19 @@ nav .hamburger-menu{
     gap: 8px;
     margin-bottom: 100px;
 }
+.btn .btn-1{
+     color: #ffffff;
+    padding: 12px 16px;
+    background: linear-gradient( to top right, #f7e93f,#fb09b4,
+        #9100fb
+    );
+    border-radius: 12px;
+    border: none;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    cursor: pointer;
+}
 .btn .subscribe-btn{
     padding: 12px 20px;
     color: #00ff88;
@@ -128,7 +142,12 @@ nav .hamburger-menu{
     gap: 8px;
     background: transparent;
     border: 1px solid #00ff88;
+    cursor: pointer;
 
+}
+.btn .subscribe-btn:hover{
+    transform: rotate(10deg) scale(1.5);
+    transition: 3s;
 }
 #podcast, #features, #footer {
     max-width: 1600px;
@@ -396,6 +415,91 @@ nav .hamburger-menu{
         grid-template-columns: repeat(2,1fr);
         
     }
+    
+    .choosing-container .facilities{
+        display: flex;
+        flex-direction: column;
+        width: 98%;
+        align-items: center;
+        justify-content: center;
+    }
+    .features-container{
+        padding-bottom: 20px;
+    }
+    .facilities .card-1, .card-2, .card-3, .card-4, .card-5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .features-container .episodes .videos{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .video-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .host .alex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .alex-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-container {
+       background-size: 100% 100%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border-radius: 40px;
+        
+    }
+    .footer-container .footer-links{
+        display: flex;
+        flex-wrap: wrap;
+       
+        
+    }
+
+}   
+
+/*@media  screen and (min-width:992px) {
+    body{
+        margin: 0 auto;
+    }
+    nav{
+        width: 100%;
+        justify-content: space-between;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    
+    nav .hamburger-menu{
+        display: none;
+    }
+    #banner, #podcast, #choosing, #features, #footer{
+       width: 100%; 
+    }
+    .banner-container, .choosing-container {
+        width: 100%;
+    }
+    .podcast-container .about .section-heading{
+        padding-top: 0;
+    }
+    .ratio{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
     .choosing-container .facilities{
         display: flex;
         flex-direction: column;
@@ -427,8 +531,7 @@ nav .hamburger-menu{
        
         
     }
-
-}   
+*/  
 
 
     
