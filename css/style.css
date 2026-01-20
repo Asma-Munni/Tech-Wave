@@ -394,6 +394,7 @@ nav .hamburger-menu{
 @media  screen and (max-width:576px) {
     body{
         margin: 0 auto;
+        width: 100%;
     }
     nav{
         width: 100%;
@@ -430,7 +431,7 @@ nav .hamburger-menu{
     .choosing-container .facilities{
         display: flex;
         flex-direction: column;
-        width: 98%;
+        width: 100%;
         align-items: center;
         justify-content: center;
     }
@@ -455,10 +456,14 @@ nav .hamburger-menu{
         justify-content: center;
         align-items: center;
     }
+    .host{
+        width: 100%;
+    }
     .host .alex{
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
     .alex-text{
         display: flex;
@@ -472,6 +477,7 @@ nav .hamburger-menu{
         padding-top: 40px;
         padding-bottom: 40px;
         border-radius: 40px;
+        width: 100%;
         
     }
     .footer-container .footer-links{
